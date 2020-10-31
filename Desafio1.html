@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <title>Desafio módulo 1 - Rocketseat </title>
+    </head> 
+    <body> 
+        <script> 
+            var endereco = {
+            rua: "Rua dos pinheiros",
+            numero: 1293,
+            bairro: "Centro",
+            cidade: "São Paulo",
+            uf: "SP"
+            }; 
+
+            function imprime_endereco(rua, numero, bairro, cidade, uf) {
+                var endereco = "O usuário mora em " + rua + " no numero " +  numero + " no bairro " + bairro + " na cidade de "+  cidade+ " no estado de " + uf;
+               
+                return endereco;
+            }
+                  
+            var resultado = imprime_endereco(endereco.rua,endereco.numero,endereco.bairro,endereco.cidade,endereco.uf) 
+            
+            console.log(resultado)  
+         </script>
+    </body>
+</html>
