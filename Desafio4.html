@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <title>Desafio 4 módulo 1 - Rocketseat </title>
+    </head> 
+    <body> 
+        <script> 
+            function experiencia(anos) {
+                switch (true) {
+                    case anos == 0:
+                        return 'Iniciante';
+                    case anos >= 1 && anos < 3:
+                        return 'Intermediário';
+                    case anos >= 3 && anos < 7: 
+                        return 'Avançado';
+                    case anos >= 7:
+                        return 'Jedi Master';
+                }
+            }
+              
+            var anosEstudo = experiencia(1)
+            console.log(anosEstudo)
+         </script>
+    </body>
+</html>
