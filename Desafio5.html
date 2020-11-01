@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <title>Desafio 5 módulo 1 - Rocketseat </title>
+    </head> 
+    <body> 
+        <script> 
+           var usuarios = [
+                {
+                    nome: "Diego",
+                    habilidades: ["Javascript", "ReactJS", "Redux"]
+                },
+                {
+                    nome: "Gabriel",
+                    habilidades: ["VueJS", "Ruby on Rails", "Elixir"]
+                }
+                
+            ];
+            
+            for (let usuario of usuarios) {
+                var resultado = "O Diego possui as habilidades: " + usuario.habilidades.join([separador = ', '])
+                console.log(resultado)
+            }
+             
+         </script>
+    </body>
+</html>
